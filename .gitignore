@@ -1,0 +1,39 @@
+# Datos locales o descargados
+**/data/
+**/datos/
+
+# Entornos virtuales y dependencias locales
+**/venv/
+**/.venv/
+**/env/
+
+# Python y Jupyter
+**/__pycache__/
+*.py[cod]
+**/.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Credenciales y configuración sensible
+.env
+.env.*
+!.env.example
+kaggle.json
+*.pem
+*.key
+credentials.json
+
+# Configuración personal y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+~$*
+
